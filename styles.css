@@ -1,0 +1,23 @@
+body {
+  font-family: arial, sans-serif;
+}
+div{
+  border: solid 1px #eee;
+}
+
+.top-bar {
+  height: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #404040;
+  vertical-align: middle;
+  text-align: right;
+  padding-left: 30px; 
+  padding-right: 30px;
+}
+.top-bar-list li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 15px;
+  vertical-align: middle;
+}
