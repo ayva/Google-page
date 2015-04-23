@@ -1,17 +1,15 @@
 body {
   font-family: arial, sans-serif;
+  color: #404040;
 }
 div{
   border: solid 1px #eee;
 }
 
 .top-bar {
-  height: 30px;
-  margin-top: 10px;
-  font-size: 15px;
-  color: #404040;
-  vertical-align: middle;
   text-align: right;
+  height: 30px;
+  font-size: 15px;
   padding-left: 30px; 
   padding-right: 30px;
 }
@@ -19,5 +17,51 @@ div{
   display: inline;
   list-style-type: none;
   padding-right: 15px;
-  vertical-align: middle;
+  
+}
+.search-wrapper{
+text-align: center;
+}
+
+.google-icon img{
+height: 95px;
+width: 269px;
+padding-top: 112px;
+}
+.search-container .search-bar{
+height: 28px;
+width: 484px;
+vertical-align: top;
+border: 1px solid #4d90fe;
+}
+.search-container .search-submit{
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 11px 8px;
+  min-width: 54px;
+  text-align: center;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  background-color: #f2f2f2;
+
+
+}
+.bottom-bar {
+ 
+  height: 40px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  padding-left: 30px; 
+  padding-right: 30px;
+}
+.bottom-bar-leftlist li{
+  list-style-type: none;
+  padding-left: 15px;
+  float: left;
+}
+.bottom-bar-rightlist li{
+  list-style-type: none;
+  padding-right: 15px;
+  float: right;
 }
