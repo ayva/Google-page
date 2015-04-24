@@ -1,23 +1,42 @@
 body {
   font-family: arial, sans-serif;
   color: #404040;
+  padding: 0px;
+  margin: 0px;
 }
 div{
-  border: solid 1px #eee;
+  
 }
 
 .top-bar {
   text-align: right;
   height: 30px;
   font-size: 15px;
-  padding-left: 30px; 
-  padding-right: 30px;
+ 
 }
 .top-bar-list li{
   display: inline;
   list-style-type: none;
   padding-right: 15px;
-  
+}
+.top-bar-list li:hover{
+text-decoration: underline;
+}
+.top-bar-list .Sign-in{
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  background-color: #4683ea;
+  font-size: 13px;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  border: 1px solid #4285f4;
+  font-weight: bold;
+}
+.top-bar-list .Sign-in:hover{
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .search-wrapper{
 text-align: center;
@@ -27,13 +46,23 @@ text-align: center;
 height: 95px;
 width: 269px;
 padding-top: 112px;
+
 }
-.search-container .search-bar{
-height: 28px;
-width: 484px;
-vertical-align: top;
-border: 1px solid #4d90fe;
+.search-container .search-bar {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-top-color: #c0c0c0;
+  font-size: 19px;
+  height: 28px;
+  width: 484px;
+  background: url(mic.gif) 464px no-repeat;
+  background-size: 14px 19px;
 }
+.search-container .search-bar:hover{
+  border: 1px solid #b9b9b9;
+  border-top-color: #a0a0a0;
+  }
+
 .search-container .search-submit{
   height: 29px;
   font-size: 12px;
@@ -43,25 +72,39 @@ border: 1px solid #4d90fe;
   text-align: center;
   border: 1px solid #c6c6c6;
   color: #222;
-  background-color: #f2f2f2;
-
+  background-color: #f1f1f1;
+  padding-left: 8px; 
+  padding-right: 8px;
+  border-radius: 2px;
 
 }
+.search-container .search-submit:hover{
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px 0px;
+}
 .bottom-bar {
- 
-  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 35px;
   background-color: #f2f2f2;
   font-size: 15px;
-  padding-left: 30px; 
-  padding-right: 30px;
+  color: #666;
+  padding-bottom: 15px;
+  border-top: 1px solid #e4e4e4;
+  min-width: 980px;
+
+}
+.bottom-bar ul{
+  padding: 0px;
+
 }
 .bottom-bar-leftlist li{
   list-style-type: none;
-  padding-left: 15px;
+  padding-left: 30px;
   float: left;
 }
 .bottom-bar-rightlist li{
   list-style-type: none;
-  padding-right: 15px;
+  padding-right: 30px;
   float: right;
 }
